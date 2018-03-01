@@ -10,24 +10,46 @@ import com.heyi.small_tools.skin.style.PinkSkinStyle
  * @since 1.0.0
  */
 class SkinStyle private constructor(private val builder: Builder){
+
+    /**
+     * 状态栏
+     */
     @ColorInt
      var mStatusColor:Int
 
+    /**
+     * 纯色ViewGroup(除白色等浅色)
+     */
     @ColorInt
      var mColorFrameBg:Int
 
+    /**
+     * 纯色ViewGroup(除白色等浅色)中文字颜色
+     */
     @ColorInt
      var mColorFrameTextColor:Int
 
+    /**
+     * 纯色ViewGroup(除白色等浅色)中副标题文字颜色
+     */
     @ColorInt
      var mColorFrameSecondTextColor:Int
 
+    /**
+     * 白色等浅色ViewGroup中文字颜色
+     */
     @ColorInt
      var mWhiteFrameTextColor:Int
 
+    /**
+     * 白色等浅色ViewGroup中副标题文字颜色
+     */
     @ColorInt
      var mWhiteFrameSecondTextColor:Int
 
+    /**
+     * 该主题标题
+     */
      var mThemeTitle:String
     init {
 

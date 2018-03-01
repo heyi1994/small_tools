@@ -4,20 +4,20 @@ import android.graphics.Color
 import com.heyi.small_tools.skin.SkinStyle
 
 /**
- * #### 粉红主题 ;
+ * #### 亮蓝主题 ;
  * @author Heyi
  * @since 1.0.0
  */
-object PinkSkinStyle {
-         val STATUS_COLOR = Color.parseColor("#C2185B")
-         val COLOR_FRAME_BG = Color.parseColor("#E91E63")
-         val COLOR_FRAME_TEXT_COLOR =Color.parseColor("#FFFFFF")
-         val COLOR_FRAME_SECOND_TEXT_COLOR = Color.parseColor("#F8BBD0")
-         val WHITE_FRAME_TEXT_COLOR = Color.parseColor("#212121")
-         val WHITE_FRAME_SECOND_TEXT_COLOR = Color.parseColor("#757575")
-         val THEME_TITLE = "Pink"
+object LightBlueSkinStyle {
+        val STATUS_COLOR = Color.parseColor("#0288D1")
+        val COLOR_FRAME_BG = Color.parseColor("#03A9F4")
+        val COLOR_FRAME_TEXT_COLOR = Color.parseColor("#FFFFFF")
+        val COLOR_FRAME_SECOND_TEXT_COLOR = Color.parseColor("#B3E5FC")
+        val WHITE_FRAME_TEXT_COLOR = Color.parseColor("#212121")
+        val WHITE_FRAME_SECOND_TEXT_COLOR = Color.parseColor("#757575")
+        val THEME_TITLE = "LightBlue"
 
-        fun create():SkinStyle{
+        fun create(): SkinStyle {
             return SkinStyle.Builder().apply {
                 setStatusColor(STATUS_COLOR)
                 setColorFrameBg(COLOR_FRAME_BG)
