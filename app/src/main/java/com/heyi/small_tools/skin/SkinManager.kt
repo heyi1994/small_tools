@@ -1,5 +1,8 @@
 package com.heyi.small_tools.skin
 
+import android.app.Activity
+import android.app.Application
+import android.os.Bundle
 import android.util.Log
 import com.heyi.small_tools.skin.style.*
 import kotlin.properties.Delegates

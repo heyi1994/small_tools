@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.res.Configuration
 import android.content.res.Resources
 import android.support.multidex.MultiDex
+import com.heyi.small_tools.skin.SkinManager
 
 /**
  * @author Heyi
@@ -13,6 +14,7 @@ import android.support.multidex.MultiDex
 class SmallToolsApplication:Application() {
     override fun onCreate() {
         super.onCreate()
+        SkinManager.init()
     }
     override fun attachBaseContext(base: Context?) {
         super.attachBaseContext(base)

@@ -38,6 +38,49 @@ dependencies {
     implementation "de.hdodenhof:circleimageview:$CircleImageView"
     implementation "com.squareup.picasso:picasso:$Picasso"
     implementation "io.reactivex.rxjava2:rxandroid:$RxAndroid"
+    // Appcompat-v7 (only Anko Commons)
+    implementation "org.jetbrains.anko:anko-appcompat-v7-commons:$Anko_Version"
+
+    // Appcompat-v7 (Anko Layouts)
+    implementation "org.jetbrains.anko:anko-appcompat-v7:$Anko_Version"
+    implementation "org.jetbrains.anko:anko-coroutines:$Anko_Version"
+
+    // CardView-v7
+    implementation "org.jetbrains.anko:anko-cardview-v7:$Anko_Version"
+
+    // Design
+    implementation "org.jetbrains.anko:anko-design:$Anko_Version"
+    implementation "org.jetbrains.anko:anko-design-coroutines:$Anko_Version"
+
+    // GridLayout-v7
+    implementation "org.jetbrains.anko:anko-gridlayout-v7:$Anko_Version"
+
+    // Percent
+    implementation "org.jetbrains.anko:anko-percent:$Anko_Version"
+
+    // RecyclerView-v7
+    implementation "org.jetbrains.anko:anko-recyclerview-v7:$Anko_Version"
+    implementation "org.jetbrains.anko:anko-recyclerview-v7-coroutines:$Anko_Version"
+
+    // Support-v4 (only Anko Commons)
+    implementation "org.jetbrains.anko:anko-support-v4-commons:$Anko_Version"
+
+    // Support-v4 (Anko Layouts)
+    implementation "org.jetbrains.anko:anko-support-v4:$Anko_Version"
+
+    // Anko Commons
+    implementation "org.jetbrains.anko:anko-commons:$Anko_Version"
+
+    // Anko Layouts
+    implementation "org.jetbrains.anko:anko-sdk25:$Anko_Version" // sdk15, sdk19, sdk21, sdk23 are also available
+    implementation "org.jetbrains.anko:anko-appcompat-v7:$Anko_Version"
+
+    // Coroutine listeners for Anko Layouts
+    implementation "org.jetbrains.anko:anko-sdk25-coroutines:$Anko_Version"
+    implementation "org.jetbrains.anko:anko-appcompat-v7-coroutines:$Anko_Version"
+
+    // Anko SQLite
+    implementation "org.jetbrains.anko:anko-sqlite:$Anko_Version"
 }
 
 
